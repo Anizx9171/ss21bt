@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+th {
+    background-color: rgb(247, 230, 209);
+}
+
+tr {
+    background-color: aliceblue;
+}
+
+tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+form {
+    display: none;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 10rem;
+    background-color: teal;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+form>div>label {
+    color: #fff;
+}
